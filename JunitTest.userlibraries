@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="org.hamcrest:hamcrest-all:1.3">
+    <archive path="/Users/mac/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar" />
+  </library>
+  <library name="org.mockito:mockito-all:1.10.19">
+    <archive path="/Users/mac/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar" />
+  </library>
+</eclipse-userlibraries>
+

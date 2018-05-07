@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c19e3f1f-3945-4166-96ab-f671d28a0082" name="Default" comment="" />
+    <list default="true" id="c19e3f1f-3945-4166-96ab-f671d28a0082" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_junit.md" beforeDir="false" afterPath="$PROJECT_DIR$/java_junit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/com/java/march/junittest/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/com/java/march/junittest/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/com/java/march/junittest/MockitoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/com/java/march/junittest/MockitoTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,26 +18,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JunitTest.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitTest.iml">
+    <leaf>
+      <file leaf-file-name="AllTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/AllTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="171">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="java_junit.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_junit.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                <folding>
+                  <element signature="imports" expanded="true" />
+                  <element signature="e#927#928#0" expanded="true" />
+                  <element signature="e#972#973#0" expanded="true" />
+                  <element signature="e#1446#1447#0" expanded="true" />
+                  <element signature="e#1499#1500#0" expanded="true" />
+                  <element signature="e#98#99#0" expanded="true" />
+                  <element signature="e#126#127#0" expanded="true" />
+                  <element signature="e#169#170#0" expanded="true" />
+                  <element signature="e#197#198#0" expanded="true" />
+                  <element signature="e#243#244#0" expanded="true" />
+                  <element signature="e#271#272#0" expanded="true" />
+                  <element signature="e#311#312#0" expanded="true" />
+                  <element signature="e#339#340#0" expanded="true" />
+                  <element signature="imports" expanded="true" />
+                  <element signature="e#229#230#0" expanded="true" />
+                  <element signature="e#274#275#0" expanded="true" />
+                  <element signature="e#371#372#0" expanded="true" />
+                  <element signature="e#440#441#0" expanded="true" />
+                  <element signature="e#543#544#0" expanded="true" />
+                  <element signature="e#616#617#0" expanded="true" />
+                  <element signature="e#725#726#0" expanded="true" />
+                  <element signature="e#801#802#0" expanded="true" />
+                  <element signature="e#898#899#0" expanded="true" />
+                  <element signature="e#968#969#0" expanded="true" />
+                  <element signature="imports" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name=".classpath" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.classpath">
+      <file leaf-file-name="JunitTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/JunitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="64" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="64" />
+            <state relative-caret-position="507">
+              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HamcrestTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/HamcrestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,21 +119,33 @@
     <findStrings>
       <find>throws Exception</find>
       <find>describeMismatch</find>
+      <find>when</find>
+      <find>####</find>
     </findStrings>
+    <replaceStrings>
+      <replace>###</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/com/java/march/junittest/Test.java" />
         <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/TestTest.java" />
         <option value="$PROJECT_DIR$/src/main/com/java/march/junittest/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/CalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/MockitoTest.java" />
         <option value="$PROJECT_DIR$/JunitTest.iml" />
         <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/HamcrestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/java/march/junittest/Test.java" />
+        <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/MockitoTest.java" />
+        <option value="$PROJECT_DIR$/mock.md" />
+        <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/JunitTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/com/java/march/junittest/AllTests.java" />
+        <option value="$PROJECT_DIR$/java_junit.md" />
       </list>
     </option>
   </component>
@@ -81,12 +164,14 @@
     <option name="width" value="1205" />
     <option name="height" value="798" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -95,11 +180,41 @@
               <item name="JunitTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="JunitTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JunitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JunitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JunitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JunitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="junittest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JunitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JunitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="junittest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,11 +247,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HamcrestTest.testCustomMatcher">
+  <component name="RunManager" selected="JUnit.AllTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="HamcrestTest.testCustomMatcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitTest" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +262,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.java.march.junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.HamcrestTest" />
-      <option name="METHOD_NAME" value="testCustomMatcher" />
+      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.AllTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JunitTest.testIgnore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.march.junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.java.march.junittest" />
+      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.JunitTest" />
+      <option name="METHOD_NAME" value="testIgnore" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -159,7 +297,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HamcrestTest.testExceptionMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JunitTest.testNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitTest" />
       <extension name="coverage">
         <pattern>
@@ -170,53 +308,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.java.march.junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.HamcrestTest" />
-      <option name="METHOD_NAME" value="testExceptionMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="HamcrestTest.testHamcrest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.march.junittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.java.march.junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.HamcrestTest" />
-      <option name="METHOD_NAME" value="testHamcrest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="HamcrestTest.testNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.march.junittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.java.march.junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.HamcrestTest" />
+      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.JunitTest" />
       <option name="METHOD_NAME" value="testNullPointerException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -228,7 +320,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MockitoTest.testAnnotations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JunitTest.testTimeOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitTest" />
       <extension name="coverage">
         <pattern>
@@ -239,8 +331,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.java.march.junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.MockitoTest" />
-      <option name="METHOD_NAME" value="testAnnotations" />
+      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.JunitTest" />
+      <option name="METHOD_NAME" value="testTimeOut" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JunitTest.timeOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.march.junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.java.march.junittest" />
+      <option name="MAIN_CLASS_NAME" value="com.java.march.junittest.JunitTest" />
+      <option name="METHOD_NAME" value="timeOut" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -290,19 +405,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MockitoTest.testAnnotations" />
-      <item itemvalue="JUnit.HamcrestTest.testNullPointerException" />
-      <item itemvalue="JUnit.HamcrestTest.testExceptionMessage" />
-      <item itemvalue="JUnit.HamcrestTest.testHamcrest" />
-      <item itemvalue="JUnit.HamcrestTest.testCustomMatcher" />
+      <item itemvalue="JUnit.JunitTest.testNullPointerException" />
+      <item itemvalue="JUnit.JunitTest.timeOut" />
+      <item itemvalue="JUnit.JunitTest.testTimeOut" />
+      <item itemvalue="JUnit.JunitTest.testIgnore" />
+      <item itemvalue="JUnit.AllTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HamcrestTest.testCustomMatcher" />
-        <item itemvalue="JUnit.HamcrestTest.testHamcrest" />
-        <item itemvalue="JUnit.HamcrestTest.testExceptionMessage" />
-        <item itemvalue="JUnit.HamcrestTest.testNullPointerException" />
-        <item itemvalue="JUnit.MockitoTest.testAnnotations" />
+        <item itemvalue="JUnit.AllTests" />
+        <item itemvalue="JUnit.JunitTest.testIgnore" />
+        <item itemvalue="JUnit.JunitTest.testTimeOut" />
+        <item itemvalue="JUnit.JunitTest.timeOut" />
+        <item itemvalue="JUnit.JunitTest.testNullPointerException" />
       </list>
     </recent_temporary>
   </component>
@@ -317,47 +432,49 @@
       <option name="presentableId" value="Default" />
       <updated>1525404667249</updated>
       <workItem from="1525404668769" duration="9944000" />
-      <workItem from="1525426582818" duration="705000" />
+      <workItem from="1525426582818" duration="898000" />
+      <workItem from="1525673192352" duration="7990000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 15m 43s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest - 2018.05.07 at 16h 09m 16s.xml">
+      <configuration name="JunitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 17m 12s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest - 2018.05.07 at 16h 09m 28s.xml">
+      <configuration name="JunitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 19m 32s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest - 2018.05.07 at 16h 09m 54s.xml">
+      <configuration name="JunitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 19m 52s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest_testNullPointerException - 2018.05.07 at 16h 10m 46s.xml">
+      <configuration name="JunitTest.testNullPointerException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 20m 16s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest_timeOut - 2018.05.07 at 16h 12m 24s.xml">
+      <configuration name="JunitTest.timeOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 21m 54s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest_testTimeOut - 2018.05.07 at 16h 12m 47s.xml">
+      <configuration name="JunitTest.testTimeOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 22m 25s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest_testTimeOut - 2018.05.07 at 16h 13m 18s.xml">
+      <configuration name="JunitTest.testTimeOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 24m 26s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest_testTimeOut - 2018.05.07 at 16h 13m 27s.xml">
+      <configuration name="JunitTest.testTimeOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testHamcrest - 2018.05.04 at 17h 24m 41s.xml">
-      <configuration name="HamcrestTest.testHamcrest" configurationId="JUnit" />
+    <history-entry file="JunitTest_testIgnore - 2018.05.07 at 16h 14m 51s.xml">
+      <configuration name="JunitTest.testIgnore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HamcrestTest_testCustomMatcher - 2018.05.04 at 17h 25m 16s.xml">
-      <configuration name="HamcrestTest.testCustomMatcher" configurationId="JUnit" />
+    <history-entry file="AllTests - 2018.05.07 at 16h 22m 49s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10649000" />
+    <option name="totallyTimeSpent" value="18832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="657" y="60" width="1205" height="798" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -368,19 +485,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25365433" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25709373" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -394,6 +511,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/HamcrestTest.java">
@@ -411,10 +533,68 @@
     <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/TestTest.java" />
     <entry file="file://$PROJECT_DIR$/out/production/JunitTest/com/java/march/junittest/Calculator.class" />
     <entry file="file://$PROJECT_DIR$/out/production/JunitTest/com/java/march/junittest/Test.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/java/march/junittest/Calculator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/Matchers.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="105">
+          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitTest.userlibraries">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="478" column="13" selection-start-line="478" selection-start-column="13" selection-end-line="478" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/MockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="357" column="19" lean-forward="true" selection-start-line="357" selection-start-column="19" selection-end-line="357" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="389">
+            <caret line="434" column="27" lean-forward="true" selection-start-line="434" selection-start-column="27" selection-end-line="434" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hamcrest.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -425,24 +605,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/java/march/junittest/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        <state>
+          <caret selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/JunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/HamcrestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/MockitoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/AllTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="127" column="33" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="33" />
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -450,63 +656,36 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="190">
-            <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <folding>
+              <element signature="imports" expanded="true" />
+              <element signature="e#927#928#0" expanded="true" />
+              <element signature="e#972#973#0" expanded="true" />
+              <element signature="e#1446#1447#0" expanded="true" />
+              <element signature="e#1499#1500#0" expanded="true" />
+              <element signature="e#98#99#0" expanded="true" />
+              <element signature="e#126#127#0" expanded="true" />
+              <element signature="e#169#170#0" expanded="true" />
+              <element signature="e#197#198#0" expanded="true" />
+              <element signature="e#243#244#0" expanded="true" />
+              <element signature="e#271#272#0" expanded="true" />
+              <element signature="e#311#312#0" expanded="true" />
+              <element signature="e#339#340#0" expanded="true" />
+              <element signature="imports" expanded="true" />
+              <element signature="e#229#230#0" expanded="true" />
+              <element signature="e#274#275#0" expanded="true" />
+              <element signature="e#371#372#0" expanded="true" />
+              <element signature="e#440#441#0" expanded="true" />
+              <element signature="e#543#544#0" expanded="true" />
+              <element signature="e#616#617#0" expanded="true" />
+              <element signature="e#725#726#0" expanded="true" />
+              <element signature="e#801#802#0" expanded="true" />
+              <element signature="e#898#899#0" expanded="true" />
+              <element signature="e#968#969#0" expanded="true" />
+              <element signature="imports" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/Matchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/com/java/march/junittest/HamcrestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="177" column="1" lean-forward="true" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-57">
-            <caret line="371" selection-start-line="371" selection-end-line="371" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitTest.userlibraries">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitTest.eml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitTest.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="64" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="64" />
         </state>
       </provider>
     </entry>

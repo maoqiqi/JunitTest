@@ -1,39 +1,17 @@
 package com.java.march.junittest;
 
-import org.junit.*;
+import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
 
-    private static int num1;
-    private static int num2;
-
     private Calculator calculator;
-
-    @BeforeClass
-    public static void beforeClass() {
-        num1 = 1;
-        System.out.println("beforeClass()");
-    }
-
-    @AfterClass
-    public static void afterClass() {
-        System.out.println("afterClass()");
-    }
 
     @Before
     public void before() {
-        num2 = 1;
         calculator = new Calculator();
-        System.out.println("before()");
-    }
-
-    @After
-    public void after() {
-        System.out.println("after()");
-        System.out.println("------------------------------");
     }
 
     /**
@@ -66,21 +44,5 @@ public class CalculatorTest {
     @Test
     public void testDivision() {
         assertEquals("result:", 4, calculator.division(20, 5));
-    }
-
-    @Test
-    public void testBeforeClassAndBefore1() {
-        num1++;
-        num2++;
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
-    }
-
-    @Test
-    public void testBeforeClassAndBefore2() {
-        num1++;
-        num2++;
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
     }
 }

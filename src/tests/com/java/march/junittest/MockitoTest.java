@@ -277,8 +277,8 @@ public class MockitoTest {
         when(mock.size()).thenReturn(10);
         System.out.println(mock.size());
         reset(mock);
-        System.out.println(mock.size());
         // 从这开始,之前的交互和stub将全部失效
+        System.out.println(mock.size());
     }
 
     // 6. 序列化（自1.8.1开始）
@@ -287,7 +287,8 @@ public class MockitoTest {
         List serializableMock = mock(List.class, withSettings().serializable());
     }
 
-    // 7. @Mock注解
+    // 7. 注解
+    // 对于final类、匿名类和Java的基本类型是无法进行mock的。
     @Mock
     private List<String> list1 = new ArrayList<>();
     @Mock
@@ -306,9 +307,13 @@ public class MockitoTest {
     @Spy
     private LinkedList list4;
 
-    // 会自动实例化
+    @Mock
+    private UserService userService1;
+    // 如果此注解声明的变量需要用到mock对象,mockito会自动注入mock或spy成员
     @InjectMocks
-    private LinkedList list5 = new LinkedList<>();
+    private UserService userService2;
+    @Spy
+    private UserService userService3;
 
     @Before
     public void initMocks() {
@@ -322,9 +327,38 @@ public class MockitoTest {
         System.out.println(list2.size());
         System.out.println(list3.size());
         System.out.println(list4.size());
-        System.out.println(list5.size());
 
         list2.add("one");
         verify(list2).add(argumentCaptor.capture());
+
+        // 不会打印login
+        System.out.println(userService1.login());
+        System.out.println("-------------------");
+        // 打印login
+        System.out.println(userService2.login());
+        System.out.println("-------------------");
+        System.out.println(userService3.login());
+        System.out.println("-------------------");
+
+        verify(userService1).login();
+        // 报错
+        // verify(userService2).login();
+
+        when(userService1.login()).thenReturn("login success");
+        System.out.println(userService1.login());
+
+        // @Mock与@InjectMocks的区别
+        // @Mock: 创建一个Mock.Mock对象只能调用stubbed方法，调用不了它真实的方法。
+        // 但Mockito可以监视一个真实的对象，这时对它进行方法调用时它将调用真实的方法，
+        // 同时也可以stubbing这个对象的方法让它返回我们的期望值。
+        // @InjectMocks: 创建一个实例，简单的说可以调用真实代码的方法.
+    }
+}
+
+class UserService {
+
+    public String login() {
+        System.out.println("login()");
+        return "UserService->login()";
     }
 }

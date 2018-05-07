@@ -16,12 +16,6 @@ import static org.junit.Assert.assertThat;
 
 public class HamcrestTest {
 
-    @Test(expected = NullPointerException.class)
-    public void testNullPointerException() throws Exception {
-        String str = null;
-        System.out.println(str.toUpperCase());
-    }
-
     @Test
     public void testExceptionMessage() {
         try {
@@ -95,6 +89,19 @@ public class HamcrestTest {
 
     @Test
     public void testHamcrest() {
+        // Core 相关方法
+        // is：如果包装的匹配器匹配器时匹配,反之亦然
+        assertThat(userBean2, Matchers.is(userBean3));
+        assertThat("Hello World", Matchers.is(Matchers.endsWith("World")));
+
+        // Logical 相关方法
+        // allOf：如果所有匹配器都匹配才匹配
+        // assertThat("Hello World", Matchers.allOf(Matchers.endsWith("World"), Matchers.startsWith("Hello")));
+        // anyOf：如果任何匹配器匹配就匹配
+        // assertThat("Hello World", Matchers.anyOf(Matchers.endsWith("March"), Matchers.notNullValue()));
+        // not：如果包装的匹配器不匹配器时匹配,反之亦然
+        assertThat("Hello World", Matchers.not(Matchers.endsWith("March")));
+
         // Object 相关方法
         // equalTo：判断2个对象是否相等,使用Object.equals方法
         assertThat(userBean2, Matchers.equalTo(userBean3));
@@ -104,6 +111,8 @@ public class HamcrestTest {
         assertThat(userBean1, Matchers.instanceOf(UserBean.class));
         // nullValue：判断对象是否为null值
         assertThat(null, Matchers.nullValue());
+        // notNullValue:判断对象不为null值
+        assertThat(userBean1, Matchers.notNullValue());
         // sameInstance：测试2个对象是否同一个实例
         assertThat(userBean2, Matchers.sameInstance(userBean3));
 
@@ -140,19 +149,6 @@ public class HamcrestTest {
         assertThat("Hello World", Matchers.containsString("Hello"));
         assertThat("Hello World", Matchers.startsWith("Hello"));
         assertThat("Hello Hello", Matchers.endsWith("Hello"));
-
-        // Logical 相关方法
-        // allOf：如果所有匹配器都匹配才匹配
-        // assertThat("Hello World", Matchers.allOf(Matchers.endsWith("World"), Matchers.startsWith("Hello")));
-        // anyOf：如果任何匹配器匹配就匹配
-        // assertThat("Hello World", Matchers.anyOf(Matchers.endsWith("March"), Matchers.notNullValue()));
-        // not：如果包装的匹配器不匹配器时匹配,反之亦然
-        assertThat("Hello World", Matchers.not(Matchers.endsWith("March")));
-
-        // Core 相关方法
-        // is：如果包装的匹配器匹配器时匹配,反之亦然
-        assertThat(userBean2, Matchers.is(userBean3));
-        assertThat("Hello World", Matchers.is(Matchers.endsWith("World")));
     }
 
     // 扩展Hamcrest的Matcher接口自定义匹配器
